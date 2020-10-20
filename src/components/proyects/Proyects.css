@@ -1,0 +1,5 @@
+.main-proyects {
+  margin: 4rem 0;
+  opacity: 0;
+  transition: ease 1.5s;
+}

@@ -1,0 +1,75 @@
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #0c2233;
+}
+
+.navbar-brand:focus {
+  color: #0c2233;
+}
+
+.nav-link {
+  color: #0c2233;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-left: 1rem;
+}
+
+.nav-link-active,
+.nav-link:hover,
+.nav-link-active:focus {
+  color: #0a91ab;
+}
+
+/* Another color #ffc045 & #065471 */
+
+/* Hamburger Menu */
+.navbar-toggle {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-toggle:focus {
+  outline: none;
+}
+
+.navbar-toggle i {
+  background-color: #0c2233;
+  color: #0c2233;
+  width: 2rem;
+  height: 0.25rem;
+  margin: 0.2rem;
+  border-radius: 0.2rem;
+  transition: all ease 0.5s;
+}
+
+.open,
+.close {
+  color: #0c2233;
+  opacity: 1;
+}
+
+.open:nth-child(1) {
+  transform: translateY(0.5rem) rotate(45deg);
+}
+
+.open:nth-child(2) {
+  opacity: 0;
+}
+
+.open:nth-child(3) {
+  transform: translateY(-0.75rem) rotate(-45deg);
+}
+
+.close:nth-child(1) {
+  transform: rotate(0) translateY(0);
+  color: #0c2233;
+}
+
+.close:nth-child(2) {
+  opacity: 1;
+}
+
+.close:nth-child(3) {
+  transform: rotate(0) translateY(0);
+}

@@ -1,0 +1,60 @@
+.main-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  margin: 4rem auto;
+  transition: ease 1.5s;
+}
+
+@media (max-width: 576px) {
+  .main-contact {
+    margin: 2rem 1rem;
+  }
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.contact-body {
+  text-align: start;
+  margin: 2rem 0 4rem 0;
+}
+
+/* Social media */
+.contact-social {
+  align-self: center;
+}
+
+.contact-social a {
+  text-decoration: none;
+}
+
+.github-icon {
+  color: #333333;
+  background: #fafafa;
+  margin: 0 1rem;
+  border-radius: 100%;
+  transition: ease 1s;
+}
+
+.github-icon:hover {
+  color: #fafafa;
+  background: #333333;
+}
+
+.linkedin-icon {
+  color: #0077b5;
+  background: #ffffff;
+  margin: 0 1rem;
+  padding: 0%;
+  border-radius: 5px;
+  transition: ease 0.5s;
+}
+
+.linkedin-icon:hover {
+  color: #ffffff;
+  background: #0077b5;
+}
