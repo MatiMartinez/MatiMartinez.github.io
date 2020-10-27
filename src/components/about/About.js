@@ -6,6 +6,8 @@ import EditVideoImg from "../../assets/edit-video.jpg";
 import ClassroomImg from "../../assets/classroom.jpg";
 import DeveloperImg from "../../assets/developer.jpg";
 
+import Pdf from "../../docs/Portfolio.pdf";
+
 export default function About() {
   useEffect(() => {
     document.getElementById("main-about").style.opacity = "1";
@@ -23,15 +25,16 @@ export default function About() {
       </section>
       <section className="about-cv">
         <a
-          //href={require("../../docs/comprobante50560941017200910.pdf")}
+          href={Pdf}
           className="about-a-cv"
-          target="_blank"
+          without
           rel="noopener noreferrer"
+          target="_blank"
           type="application/pdf"
         >
           <AiFillFilePdf className="pdf-icon mr-2" size="1.5rem" />
           <p className="m-0 p-0">Curriculum Vitae</p>
-       </a>
+        </a>
       </section>
       <section className="about-content">
         <div className="row about-row">
