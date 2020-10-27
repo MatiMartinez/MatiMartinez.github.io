@@ -2,19 +2,31 @@
   color: #ffffff;
 }
 
-.proyect-card-info {
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(384px, 1fr));
+  grid-template-rows: repeat(1);
+}
+
+.grid-item-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 6rem;
+  padding: 2rem;
 }
 
-.proyect-card-info h2 {
+.grid-item-info h2 {
   font-size: 1rem;
   font-weight: 300;
 }
 
-.proyect-card-info h1 {
+.grid-item-info h1 {
   font-size: 3rem;
   font-weight: 500;
 }
@@ -31,4 +43,10 @@
 .btn-proyectlink:hover {
   color: #ffffff;
   opacity: 0.9;
+}
+
+@media (max-width: 767px) {
+  .grid-item-info {
+    grid-row-start: 2;
+  }
 }

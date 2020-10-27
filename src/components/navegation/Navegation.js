@@ -17,7 +17,7 @@ export default function Navegation() {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <header className="px-4 py-2">
+    <header className="px-5 py-4">
       <Navbar expand="md">
         <NavbarBrand
           className="navbar-brand link-unstyled"
@@ -44,17 +44,7 @@ export default function Navegation() {
                 Proyectos
               </NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink
-                className="nav-link"
-                activeClassName="nav-link-active"
-                tag={RRNavLink}
-                to="/"
-                onClick={isOpen ? toggle : null}
-              >
-                About
-              </NavLink>
-            </NavItem>
+
             <NavItem>
               <NavLink
                 className="nav-link"

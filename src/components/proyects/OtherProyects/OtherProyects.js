@@ -8,24 +8,17 @@ import ImageSearchImg from "../../../assets/image-search.svg";
 export default function OtherProyects() {
   return (
     <div className="main-other-proyects">
-      <h1>Otros proyectos</h1>
-      <div className="other-proyects-list ">
-        <div className="row">
-          <div className="col-4">
-            <OtherProyectCard
-              link="https://matimartinez-github-profiles.netlify.app/"
-              title="Github Profiles"
-              image={GithubProfilesImg}
-            />
-          </div>
-          <div className="col-4">
-            <OtherProyectCard
-              link="https://matimartinez-image-search.netlify.app/"
-              title="Image Search"
-              image={ImageSearchImg}
-            />
-          </div>
-        </div>
+      <div className="grid-other-proyects-list">
+        <OtherProyectCard
+          link="https://matimartinez-github-profiles.netlify.app/"
+          title="Github Profiles"
+          image={GithubProfilesImg}
+        />
+        <OtherProyectCard
+          link="https://matimartinez-image-search.netlify.app/"
+          title="Image Search"
+          image={ImageSearchImg}
+        />
       </div>
     </div>
   );

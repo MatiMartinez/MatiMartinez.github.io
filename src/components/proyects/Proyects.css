@@ -3,3 +3,29 @@
   opacity: 0;
   transition: ease 1.5s;
 }
+
+.proyects-title,
+.other-proyects-title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.proyects-title h1,
+.other-proyects-title h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.proyects-title p,
+.other-proyects-title p {
+  margin: 2rem 10% 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.proyects-title hr,
+.other-proyects-title hr {
+  width: 10%;
+  border: 1px solid #0c2233;
+  margin: 2rem auto;
+}

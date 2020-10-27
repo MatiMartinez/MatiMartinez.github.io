@@ -13,14 +13,14 @@ export default function ProyectCard({
 }) {
   return (
     <div className="main-proyect-card" style={{ backgroundColor: color }}>
-      <div className="row m-0 p-0">
+      <div className="grid">
         {position === "left" && (
-          <div className="col-6 p-4">
+          <div className="grid-item-image p-4">
             <img src={image} alt="proyect" className="img-fluid" />
           </div>
         )}
-        <div className="col-6 proyect-card-info">
-          <h2>{kit}</h2>
+        <div className="grid-item-info">
+          <h2 className="">{kit}</h2>
           <h1>{title}</h1>
           <p>{description}</p>
           <a
@@ -34,7 +34,7 @@ export default function ProyectCard({
           </a>
         </div>
         {position === "right" && (
-          <div className="col-6 p-4">
+          <div className="grid-item-image p-4">
             <img src={image} alt="proyect" className="img-fluid" />
           </div>
         )}

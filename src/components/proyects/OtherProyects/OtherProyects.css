@@ -1,12 +1,12 @@
 .main-other-proyects {
-  margin: 2rem 0 4rem;
+  margin: 2rem 0;
   text-align: center;
 }
 
-.main-other-proyects h1 {
-  margin: 4rem 0;
-}
-
-.other-proyects-list {
+.grid-other-proyects-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  row-gap: 30px;
+  column-gap: 30px;
   margin: 2rem;
 }

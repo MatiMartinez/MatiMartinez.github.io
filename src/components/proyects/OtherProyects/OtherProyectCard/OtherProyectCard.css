@@ -1,11 +1,11 @@
-.main-other-card {
+.main-other-card a {
   position: relative;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  padding: 4rem 0;
+  padding: 4.5rem 0;
+  box-shadow: 0 0 8px #333333;
 }
 
 .other-proyect-img {
@@ -15,7 +15,7 @@
   transition: all 1s ease;
 }
 
-.other-card-title {
+.main-other-card h1 {
   opacity: 0;
   position: relative;
   font-weight: bolder;
@@ -24,7 +24,11 @@
   border-bottom: 2px solid #000;
 }
 
-.other-proyect-link:hover .other-card-title {
+.main-other-card hr {
+  width: 50%;
+}
+
+.other-proyect-link:hover h1 {
   opacity: 1;
 }
 
