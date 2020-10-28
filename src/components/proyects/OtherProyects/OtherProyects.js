@@ -4,6 +4,8 @@ import "./OtherProyects.css";
 
 import GithubProfilesImg from "../../../assets/github-profiles.svg";
 import ImageSearchImg from "../../../assets/image-search.svg";
+import SocialMediaDashboardImg from "../../../assets/social-media-dashboard.png";
+import TestimonialsGridSectionImg from "../../../assets/testimonials-grid-section.png";
 
 export default function OtherProyects() {
   return (
@@ -18,6 +20,16 @@ export default function OtherProyects() {
           link="https://matimartinez-image-search.netlify.app/"
           title="Image Search"
           image={ImageSearchImg}
+        />
+        <OtherProyectCard
+          link="https://social-media-dashboard-with-theme-switcher-navy-one.vercel.app/"
+          title="Social Media Dashboard"
+          image={SocialMediaDashboardImg}
+        />
+        <OtherProyectCard
+          link="https://testimonials-grid-section-ashy.vercel.app/"
+          title="Testimonials Grid Section"
+          image={TestimonialsGridSectionImg}
         />
       </div>
     </div>

@@ -42,7 +42,7 @@ export default function Proyects() {
         color="#312502"
         btncolor="#8a7840"
       />
-      <ProyectCard
+      {/*<ProyectCard
         proyectlink="https://matimartinez-simple-cart.netlify.app/"
         title="El Buen Sabor"
         kit="HTML CSS JAVASCRIPT REACT HOOKS"
@@ -51,7 +51,7 @@ export default function Proyects() {
         position="left"
         color="#310f02"
         btncolor="#8a5540"
-      />
+      />*/}
       <div className="container other-proyects-title mt-5">
         <h1>Desafíos</h1>
         <p>
