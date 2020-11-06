@@ -37,6 +37,18 @@ export default function Navegation() {
               <NavLink
                 className="nav-link"
                 activeClassName="nav-link-active"
+                exact={true}
+                tag={RRNavLink}
+                to="/"
+                onClick={isOpen ? toggle : null}
+              >
+                Home
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                className="nav-link"
+                activeClassName="nav-link-active"
                 tag={RRNavLink}
                 to="/proyects"
                 onClick={isOpen ? toggle : null}
@@ -44,7 +56,6 @@ export default function Navegation() {
                 Proyectos
               </NavLink>
             </NavItem>
-
             <NavItem>
               <NavLink
                 className="nav-link"

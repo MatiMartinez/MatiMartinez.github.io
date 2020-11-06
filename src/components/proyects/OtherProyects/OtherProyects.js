@@ -6,6 +6,7 @@ import GithubProfilesImg from "../../../assets/github-profiles.svg";
 import ImageSearchImg from "../../../assets/image-search.svg";
 import SocialMediaDashboardImg from "../../../assets/social-media-dashboard.png";
 import TestimonialsGridSectionImg from "../../../assets/testimonials-grid-section.png";
+import RoomHomePageImg from "../../../assets/room-homepage.png";
 
 export default function OtherProyects() {
   return (
@@ -30,6 +31,11 @@ export default function OtherProyects() {
           link="https://testimonials-grid-section-ashy.vercel.app/"
           title="Testimonials Grid Section"
           image={TestimonialsGridSectionImg}
+        />
+        <OtherProyectCard
+          link="https://room-homepage-alpha.vercel.app/"
+          title="Room Home Page"
+          image={RoomHomePageImg}
         />
       </div>
     </div>

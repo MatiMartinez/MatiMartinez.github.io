@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  padding: 4.5rem 0;
+  padding: 6rem 0;
   box-shadow: 0 0 8px #333333;
 }
 
@@ -17,11 +17,13 @@
 
 .main-other-card h1 {
   opacity: 0;
-  position: relative;
-  font-weight: bolder;
-  font-size: 1.5rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-weight: 300;
+  font-size: 2rem;
   transition: all 0.5s ease;
-  border-bottom: 2px solid #000;
+  margin: 0 1rem;
 }
 
 .main-other-card hr {

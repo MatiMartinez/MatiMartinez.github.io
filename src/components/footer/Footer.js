@@ -23,9 +23,9 @@ export default function Footer() {
                   <p>Github</p>
                 </a>
               </li>
-              <li>
+              {/*<li>
                 <a
-                  href="https://github.com/MatiMartinez"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="link-unstyled"
@@ -33,10 +33,10 @@ export default function Footer() {
                   <ImMail size="1.5rem" />
                   <p>Email</p>
                 </a>
-              </li>
+              </li>*/}
               <li>
                 <a
-                  href="https://www.linkedin.com/in/matias-martinez-a8ba3a1b6/"
+                  href="https://www.linkedin.com/in/mati-martinez/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="link-unstyled"
