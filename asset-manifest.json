@@ -1,33 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c762f04.chunk.css",
-    "main.js": "/static/js/main.ede4e1b7.chunk.js",
-    "main.js.map": "/static/js/main.ede4e1b7.chunk.js.map",
+    "main.css": "/static/css/main.0e96b8fe.chunk.css",
+    "main.js": "/static/js/main.9ab6d875.chunk.js",
+    "main.js.map": "/static/js/main.9ab6d875.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0f7178bd.js",
     "runtime-main.js.map": "/static/js/runtime-main.0f7178bd.js.map",
     "static/js/2.748a90ce.chunk.js": "/static/js/2.748a90ce.chunk.js",
     "static/js/2.748a90ce.chunk.js.map": "/static/js/2.748a90ce.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b425f559828402ad74100404283ad248.js": "/precache-manifest.b425f559828402ad74100404283ad248.js",
+    "precache-manifest.16eb0f63ac09b814513460c5a91d56af.js": "/precache-manifest.16eb0f63ac09b814513460c5a91d56af.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.2c762f04.chunk.css.map": "/static/css/main.2c762f04.chunk.css.map",
+    "static/css/main.0e96b8fe.chunk.css.map": "/static/css/main.0e96b8fe.chunk.css.map",
     "static/js/2.748a90ce.chunk.js.LICENSE.txt": "/static/js/2.748a90ce.chunk.js.LICENSE.txt",
     "static/media/Portfolio.pdf": "/static/media/Portfolio.65ec69f6.pdf",
     "static/media/classroom.jpg": "/static/media/classroom.4919e971.jpg",
     "static/media/developer.jpg": "/static/media/developer.583070f2.jpg",
     "static/media/edit-video.jpg": "/static/media/edit-video.ac976075.jpg",
-    "static/media/github-profiles.svg": "/static/media/github-profiles.dbd79093.svg",
-    "static/media/image-search.svg": "/static/media/image-search.c07a4434.svg",
-    "static/media/mplay.svg": "/static/media/mplay.0af464a8.svg",
+    "static/media/github-profiles.svg": "/static/media/github-profiles.e433bcf5.svg",
+    "static/media/image-search.svg": "/static/media/image-search.fe886db8.svg",
+    "static/media/mplay.svg": "/static/media/mplay.2169f966.svg",
     "static/media/room-homepage.png": "/static/media/room-homepage.7dfb150a.png",
-    "static/media/simple-cart.svg": "/static/media/simple-cart.c8eef3bc.svg",
+    "static/media/simple-cart.svg": "/static/media/simple-cart.727ba1c0.svg",
     "static/media/social-media-dashboard.png": "/static/media/social-media-dashboard.680f7e85.png",
     "static/media/testimonials-grid-section.png": "/static/media/testimonials-grid-section.0a37b50d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0f7178bd.js",
     "static/js/2.748a90ce.chunk.js",
-    "static/css/main.2c762f04.chunk.css",
-    "static/js/main.ede4e1b7.chunk.js"
+    "static/css/main.0e96b8fe.chunk.css",
+    "static/js/main.9ab6d875.chunk.js"
   ]
 }
