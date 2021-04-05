@@ -1,33 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e96b8fe.chunk.css",
-    "main.js": "/static/js/main.837a1876.chunk.js",
-    "main.js.map": "/static/js/main.837a1876.chunk.js.map",
+    "main.css": "/static/css/main.2c762f04.chunk.css",
+    "main.js": "/static/js/main.6381edee.chunk.js",
+    "main.js.map": "/static/js/main.6381edee.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0f7178bd.js",
     "runtime-main.js.map": "/static/js/runtime-main.0f7178bd.js.map",
     "static/js/2.748a90ce.chunk.js": "/static/js/2.748a90ce.chunk.js",
     "static/js/2.748a90ce.chunk.js.map": "/static/js/2.748a90ce.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9ecf0be0c8d7c59a154afe7730e4f7b2.js": "/precache-manifest.9ecf0be0c8d7c59a154afe7730e4f7b2.js",
+    "precache-manifest.4a7f54ded6d8639ee58632939a65bb5d.js": "/precache-manifest.4a7f54ded6d8639ee58632939a65bb5d.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.0e96b8fe.chunk.css.map": "/static/css/main.0e96b8fe.chunk.css.map",
+    "static/css/main.2c762f04.chunk.css.map": "/static/css/main.2c762f04.chunk.css.map",
     "static/js/2.748a90ce.chunk.js.LICENSE.txt": "/static/js/2.748a90ce.chunk.js.LICENSE.txt",
-    "static/media/Portfolio.pdf": "/static/media/Portfolio.46feff2a.pdf",
+    "static/media/Portfolio.pdf": "/static/media/Portfolio.c8d081fb.pdf",
     "static/media/classroom.jpg": "/static/media/classroom.4919e971.jpg",
     "static/media/developer.jpg": "/static/media/developer.583070f2.jpg",
     "static/media/edit-video.jpg": "/static/media/edit-video.ac976075.jpg",
-    "static/media/github-profiles.svg": "/static/media/github-profiles.e433bcf5.svg",
-    "static/media/image-search.svg": "/static/media/image-search.fe886db8.svg",
-    "static/media/mplay.svg": "/static/media/mplay.2169f966.svg",
+    "static/media/github-profiles.svg": "/static/media/github-profiles.dbd79093.svg",
+    "static/media/image-search.svg": "/static/media/image-search.c07a4434.svg",
+    "static/media/mplay.svg": "/static/media/mplay.0af464a8.svg",
     "static/media/room-homepage.png": "/static/media/room-homepage.7dfb150a.png",
-    "static/media/simple-cart.svg": "/static/media/simple-cart.727ba1c0.svg",
+    "static/media/simple-cart.svg": "/static/media/simple-cart.c8eef3bc.svg",
     "static/media/social-media-dashboard.png": "/static/media/social-media-dashboard.680f7e85.png",
     "static/media/testimonials-grid-section.png": "/static/media/testimonials-grid-section.0a37b50d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0f7178bd.js",
     "static/js/2.748a90ce.chunk.js",
-    "static/css/main.0e96b8fe.chunk.css",
-    "static/js/main.837a1876.chunk.js"
+    "static/css/main.2c762f04.chunk.css",
+    "static/js/main.6381edee.chunk.js"
   ]
 }
