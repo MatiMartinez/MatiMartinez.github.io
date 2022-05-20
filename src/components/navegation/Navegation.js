@@ -1,15 +1,7 @@
-import React, { useState } from "react";
-import "./Navegation.css";
-import { NavLink as RRNavLink } from "react-router-dom";
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-} from "reactstrap";
+import React, { useState } from 'react';
+import './Navegation.css';
+import { NavLink as RRNavLink } from 'react-router-dom';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
 export default function Navegation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,29 +9,25 @@ export default function Navegation() {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <header className="px-5 py-4">
-      <Navbar expand="md">
-        <NavbarBrand
-          className="navbar-brand link-unstyled"
-          tag={RRNavLink}
-          to="/"
-        >
+    <header className='px-5 py-4'>
+      <Navbar expand='md'>
+        <NavbarBrand className='navbar-brand link-unstyled' tag={RRNavLink} to='/'>
           MatiMartinez
         </NavbarBrand>
-        <NavbarToggler className="navbar-toggle" onClick={toggle}>
-          <i className={isOpen ? "open" : "close"}></i>
-          <i className={isOpen ? "open" : "close"}></i>
-          <i className={isOpen ? "open" : "close"}></i>
+        <NavbarToggler className='navbar-toggle' onClick={toggle}>
+          <i className={isOpen ? 'open' : 'close'}></i>
+          <i className={isOpen ? 'open' : 'close'}></i>
+          <i className={isOpen ? 'open' : 'close'}></i>
         </NavbarToggler>
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="ml-auto" navbar>
+          <Nav className='ml-auto' navbar>
             <NavItem>
               <NavLink
-                className="nav-link"
-                activeClassName="nav-link-active"
+                className='nav-link'
+                activeClassName='nav-link-active'
                 exact={true}
                 tag={RRNavLink}
-                to="/"
+                to='/'
                 onClick={isOpen ? toggle : null}
               >
                 Home
@@ -47,10 +35,10 @@ export default function Navegation() {
             </NavItem>
             <NavItem>
               <NavLink
-                className="nav-link"
-                activeClassName="nav-link-active"
+                className='nav-link'
+                activeClassName='nav-link-active'
                 tag={RRNavLink}
-                to="/proyects"
+                to='/proyects'
                 onClick={isOpen ? toggle : null}
               >
                 Proyectos
@@ -58,10 +46,10 @@ export default function Navegation() {
             </NavItem>
             <NavItem>
               <NavLink
-                className="nav-link"
-                activeClassName="nav-link-active"
+                className='nav-link'
+                activeClassName='nav-link-active'
                 tag={RRNavLink}
-                to="/contact"
+                to='/contact'
                 onClick={isOpen ? toggle : null}
               >
                 Contacto
